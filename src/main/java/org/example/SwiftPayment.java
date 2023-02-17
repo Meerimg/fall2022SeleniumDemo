@@ -1,4 +1,4 @@
-package org.example.intro;
+package org.example;
 
 public class SwiftPayment {
     public static void main(String[] args) {
