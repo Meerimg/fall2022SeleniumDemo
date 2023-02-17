@@ -3,7 +3,7 @@ package org.example.intro;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class SeleniumExceptions extends BaseTest{
+public class SeleniumExceptions1 extends BaseTest{
 
     @Test
     public void noSuchElementExceptionTest(){
@@ -31,7 +31,5 @@ public class SeleniumExceptions extends BaseTest{
         browserHelper.openURL("https://demoqa.com/text-box");
         alertHelper.acceptAlert();
     }
-
-
 
 }
